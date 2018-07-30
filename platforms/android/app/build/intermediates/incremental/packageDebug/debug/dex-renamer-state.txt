@@ -1,0 +1,4 @@
+#Thu Jul 12 16:16:00 BRT 2018
+base.0=/Users/arleson/Desktop/projectCordova/hello/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/arleson/Desktop/projectCordova/hello/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

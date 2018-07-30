@@ -1,0 +1,38 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "phonegap-nfc": {
+      "NFC_USAGE_DESCRIPTION": "Read NFC Tags",
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-ios-camera-permissions": {
+      "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
+      "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access",
+      "PHOTOLIBRARY_ADD_USAGE_DESCRIPTION": "This app needs write-access to photo library",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access",
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/arleson/Desktop/projectCordova/hello/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
+            "map": [
+                {
+                    "source": "/Users/arleson/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/736e2342e110bda86950accecfec0595/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

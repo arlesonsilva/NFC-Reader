@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "phonegap-nfc": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-ios-camera-permissions": {
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.hapvida.higienizacao" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="NfcPlugin">
+        <param name="android-package" value="com.chariotsolutions.nfc.plugin.NfcPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
+    <name>Higienizacao Hap</name>
+    <description>
+        APP de controle de higienização e inspeção de áreas comuns.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="http://10.1.22.30:8888/apex/hospital/f?p=107:LOGIN::::::" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
+    <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
+    <icon density="hdpi" src="res/icon/android/drawable-hdpi-icon.png" />
+    <icon density="xhdpi" src="res/icon/android/drawable-xhdpi-icon.png" />
+    <icon density="xxhdpi" src="res/icon/android/drawable-xxhdpi-icon.png" />
+    <icon density="xxxhdpi" src="res/icon/android/drawable-xxxhdpi-icon.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Orientation" value="portrait" />
+</widget>
